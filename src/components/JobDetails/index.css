@@ -1,0 +1,208 @@
+.job-details-view-container {
+  background-color: black;
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.job-details-container {
+  background-color: #475569;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+}
+
+.img-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.company-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 10px;
+  }
+}
+
+.ratingContainer {
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rating {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.location-jobtype-container {
+  display: flex;
+  justify-content: center;
+}
+
+.location-internship-lpa-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 14px;
+}
+.location {
+  font-size: 18px;
+  margin-left: 8px;
+  color: white;
+}
+.employment {
+  font-size: 18px;
+  margin-left: 8px;
+  color: white;
+}
+
+.package {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visit {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 25px;
+  color: #6366f1;
+  font-family: 'Roboto';
+}
+.second-part-container {
+  padding-left: 0px;
+}
+
+.description-heading {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.arrow {
+  color: #6366f1;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-left: 30px;
+  width: 30%;
+  margin-bottom: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  .list-item {
+    width: 40%;
+  }
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+}
+
+.skills-ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.skill-img {
+  height: 80px;
+  width: 80px;
+  margin-right: 15px;
+}
+.skill-heading {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+.skill {
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+.life-at-company-heading {
+  color: white;
+  font-family: monospace;
+}
+.life-at-company-container {
+  display: flex;
+  justify-content: space-between;
+}
+.life-at-company-description {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  width: 70%;
+}
+
+.heading {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.similar-ul-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.similar-job-list {
+  list-style-type: none;
+  background-color: olive;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  padding: 15px;
+  width: 40%;
+}
+
+.job-details-loader {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .company-logo {
+    width: 40px;
+    height: 40px;
+  }
+}

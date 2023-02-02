@@ -1,0 +1,5 @@
+.img-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
